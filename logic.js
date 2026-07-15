@@ -18,6 +18,8 @@ function makerows(rows,cols) {
         container.appendChild(row);
         for(let j = 0; j < cols ;j++){
             let square = document.createElement("div");
+            square.style.width = (`${960/ cols}px`);
+            square.style.height = (`${960/ cols}px`);
             square.classList.add("square")
             square.addEventListener("mouseover", () =>{
                 square.style.backgroundColor = currentcolor;

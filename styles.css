@@ -5,17 +5,14 @@ body{
     gap:4px
 }
 #container {
-    width: 500px;
-    height: 500px;
+    width: 960px;
+    height: 960px;
     display: flex;
     flex-direction: column;
 }
 
 .square {
     border: 2px solid black;
-    flex: 1;
-  width: 20px;
-  height:20px;
 }
 
 .boxbutt{
